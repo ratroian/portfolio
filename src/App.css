@@ -44,10 +44,11 @@
 
 	--hue: 0;
 	--sat: 0%;
-	--title-color: hsl(var(--hue), var(--sat), 20%);
+	--title-color: hsl(var(--hue), var(--sat), 40%);
 	--title-color-dark: hsl(var(--hue), var(--sat), 0%);
-	--text-color: hsl(var(--hue), var(--sat), 40%);
+	--text-color: hsl(var(--hue), var(--sat), 60%);
 	--body-color: hsl(var(--hue), var(--sat), 90%);
+	--shadow: rgba(0, 0, 0, 0.15);
 	--container-color: #fff;
 
 	--body-font: 'Poppins', sans-serif;
@@ -147,6 +148,7 @@ ul {
 
 a {
 	text-decoration: none;
+	color: var(--text-color);
 }
 
 button {
