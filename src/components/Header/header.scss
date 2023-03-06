@@ -47,6 +47,12 @@
 	color: var(--title-color-dark);
 }
 
+.scroll-header {
+	backdrop-filter: blur(10px);
+	background-color: rgba($color: var(--body-color), $alpha: 0.1);
+	box-shadow: 0 -1px 4px rgba($color: #000000, $alpha: 0.15);
+}
+
 @media screen and (max-width: 768px) {
 	.header {
 		top: initial;

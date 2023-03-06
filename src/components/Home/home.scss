@@ -56,7 +56,6 @@
 	}
 
 	&__description {
-		min-width: 400px;
 		margin-bottom: var(--mb-3);
 	}
 
@@ -76,6 +75,10 @@
 	&__scroll {
 		margin-left: 9.25rem;
 	}
+
+	.home__hand {
+		animation: profile__hand 3s linear infinite 1s;
+	}
 }
 
 @keyframes profile__animate {
@@ -88,6 +91,19 @@
 	}
 	100% {
 		border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+	}
+}
+
+@keyframes profile__hand {
+	0% {
+		transform: rotate(0.1turn);
+	}
+
+	50% {
+		transform: rotate(-0.1turn);
+	}
+	100% {
+		transform: rotate(0.1turn);
 	}
 }
 

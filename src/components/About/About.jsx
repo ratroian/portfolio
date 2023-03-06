@@ -6,7 +6,7 @@ import { Info } from './Info/Info';
 
 export const About = () => {
 	return (
-		<section className='about section'>
+		<section className='about section' id='about'>
 			<h2 className='section__title'>About Me</h2>
 			<span className='section__subtitle'>My Introduction</span>
 			<div className='about__container container grid'>
@@ -23,7 +23,7 @@ export const About = () => {
 						{' '}
 						Download CV
 						<svg
-							class='button__icon'
+							className='button__icon'
 							xmlns='http://www.w3.org/2000/svg'
 							width='24'
 							height='24'
