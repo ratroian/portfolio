@@ -53,10 +53,10 @@ export const Contact = () => {
 							<i className='bx bxl-whatsapp contact__card-icon'></i>
 							<h3 className='contact__card-title'>Whatsapp</h3>
 							<span className='contact__card-data'>
-								000-000-000
+								38-067-762-87-38
 							</span>
 							<a
-								href='https://api.whatsapp.com/send?phone=62214408789&text=Hello, more information!'
+								href='https://api.whatsapp.com/send?phone=380677628738&text=Hello, more information!'
 								className='contact__button'
 							>
 								Write me
@@ -67,10 +67,10 @@ export const Contact = () => {
 							<i className='bx bxl-messenger contact__card-icon'></i>
 							<h3 className='contact__card-title'>Instagram</h3>
 							<span className='contact__card-data'>
-								Insta.nick
+								ra_troian
 							</span>
 							<a
-								href='http://Insta.nick'
+								href='https://www.instagram.com/ra_troian'
 								className='contact__button'
 							>
 								Write me

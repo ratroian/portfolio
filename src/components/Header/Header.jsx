@@ -2,14 +2,17 @@ import React, { useState } from 'react';
 import './header.scss';
 
 export const Header = () => {
+	const addScroll = (div) => {
+		div.classList.add('scroll-header');
+	};
 	window.addEventListener('scroll', () => {
 		const header = document.querySelector('.header');
-		window.scrollY >= 80
-			? header.classList.add('scroll-header')
+		window.scrollY >= 100
+			? addScroll(header)
 			: header.classList.remove('scroll-header');
 	});
 
-	const [toggle, showMenu] = useState(false);
+	const [toggle, showMenu] = useState(true);
 	const [activeNav, setActiveNav] = useState('#home');
 	return (
 		<header className='header'>
@@ -31,7 +34,7 @@ export const Header = () => {
 									setActiveNav('#home');
 								}}
 							>
-								<i className='uil uil-estate nav__icon'></i>{' '}
+								<i className='uil uil-estate nav__icon'></i>
 								Home
 							</a>
 						</li>

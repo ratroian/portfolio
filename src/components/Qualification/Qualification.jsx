@@ -47,14 +47,14 @@ export const Qualification = () => {
 						<div className='qualification__data'>
 							<div>
 								<h3 className='qualification__title'>
-									Web develop
+									Web development
 								</h3>
 								<span className='qualification__subtitle'>
-									University of customs and finance
+									Courses
 								</span>
 								<div className='qualification__calendar'>
 									<i className='uil uil-calendar-alt'></i>
-									2011 - 2016
+									2019 - 2022
 								</div>
 							</div>
 							<div>
@@ -71,45 +71,8 @@ export const Qualification = () => {
 							</div>
 							<div>
 								<h3 className='qualification__title'>
-									Web developer
+									Frontend
 								</h3>
-								<span className='qualification__subtitle'>
-									University of customs and finance
-								</span>
-								<div className='qualification__calendar'>
-									<i className='uil uil-calendar-alt'></i>
-									2011 - 2016
-								</div>
-							</div>
-						</div>
-
-						<div className='qualification__data'>
-							<div>
-								<h3 className='qualification__title'>
-									Web design
-								</h3>
-								<span className='qualification__subtitle'>
-									University
-								</span>
-								<div className='qualification__calendar'>
-									<i className='uil uil-calendar-alt'></i>
-									2011 - 2014
-								</div>
-							</div>
-							<div>
-								<span className='qualification__rounder'></span>
-								<span className='qualification__line'></span>
-							</div>
-						</div>
-
-						<div className='qualification__data'>
-							<div></div>
-							<div>
-								<span className='qualification__rounder'></span>
-								<span className='qualification__line'></span>
-							</div>
-							<div>
-								<h3 className='qualification__title'>UI/ UX</h3>
 								<span className='qualification__subtitle'>
 									DevEd
 								</span>
@@ -131,7 +94,7 @@ export const Qualification = () => {
 						<div className='qualification__data'>
 							<div>
 								<h3 className='qualification__title'>
-									HTML & CSS developr
+									HTML & CSS developer
 								</h3>
 								<span className='qualification__subtitle'>
 									Freelance
@@ -158,11 +121,11 @@ export const Qualification = () => {
 									Web developer
 								</h3>
 								<span className='qualification__subtitle'>
-									DevEducation
+									Freelance
 								</span>
 								<div className='qualification__calendar'>
 									<i className='uil uil-calendar-alt'></i>
-									2020 - Present
+									2021 - present
 								</div>
 							</div>
 						</div>

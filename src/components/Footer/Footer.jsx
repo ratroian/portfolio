@@ -25,28 +25,36 @@ export const Footer = () => {
 				</ul>
 				<div className='footer__social'>
 					<a
-						href='https://www.instagram.com/'
-						className='footer__social-icon'
+						href='https://www.instagram.com/ra_troian'
+						className='home__social-icon'
 						target='_blank'
 						rel='noreferrer'
 					>
-						<i className='bx bxl-facebook'></i>
+						<i className='uil uil-instagram'></i>
 					</a>
 					<a
-						href='https://github.com/'
-						className='footer__social-icon'
+						href='https://github.com/ratroian'
+						className='home__social-icon'
 						target='_blank'
 						rel='noreferrer'
 					>
-						<i className='bx bxl-github'></i>
+						<i className='uil uil-github-alt'></i>
 					</a>
 					<a
-						href='https://web.telegram.org/'
-						className='footer__social-icon'
+						href='https://web.telegram.org/iamrat'
+						className='home__social-icon'
 						target='_blank'
 						rel='noreferrer'
 					>
-						<i className='bx bxl-telegram'></i>
+						<i className='uil uil-telegram'></i>
+					</a>
+					<a
+						href='https://wa.me/380677628738'
+						className='home__social-icon'
+						target='_blank'
+						rel='noreferrer'
+					>
+						<i class='uil uil-whatsapp'></i>
 					</a>
 				</div>
 				<span className='footer__copy'>
